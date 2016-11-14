@@ -1,0 +1,156 @@
+{
+  "providerName": "ShuttleTest",
+  "language": "en-US",
+  "lastUpdated": "2016-11-06T18:12:32.125Z",
+  "movies": [
+    {
+      "id": "0101honhh",
+      "title": "House on Haunted Hill (HD/HLS)",
+      "shortDescription": "Year: 1959. Starring Vincent Price. Dir: William Castle.",
+        "longDescription": "An eccentric millionaire (Vincent Price) invites several friends to a creepy mansion for a night of terror. Director William Castle made the horror movie-going experience even more frightening through audience participation.",
+      "thumbnail": "http://shuttle9-5b89.kxcdn.com/thumbs/honhh.png",
+      "genres": [
+        "horror",
+        "thriller"
+      ],
+      "tags": [
+        "horror",
+        "thriller"
+      ],
+      "releaseDate": "1959-06-11",
+      "content": {
+        "dateAdded": "2016-06-11T14:14:54.431Z",
+        "captions": [],
+        "duration": 4485,
+        "adBreaks": [
+          "00:00:53"
+        ],
+        "videos": [
+          {
+            "url": "http://shuttle9-5b89.kxcdn.com/0101HONHH/index.m3u8",
+            "quality": "HD",
+            "videoType": "HLS"
+          }
+        ]
+      }
+    },
+      {
+        "id": "0102TSS",
+      "title": "The Screaming Skull (SD)",
+      "shortDescription": "Year: 1958. Starring John Hudson and Peggy Webber.",
+        "longDescription": "John Hudson and Peggy Webber star as newlyweds who encounter strange goings-on at their eerie mansion, which was also the home of the husband's dearly departed first wife...",
+      "thumbnail": "http://shuttle9-5b89.kxcdn.com/thumbs/skull.png",
+      "genres": [
+        "horror",
+        "thriller"
+      ],
+      "tags": [
+        "horror",
+        "thriller"
+      ],
+      "releaseDate": "1958-06-11",
+      "content": {
+        "dateAdded": "2016-08-11T14:14:54.431Z",
+        "captions": [],
+        "duration": 4081,
+        "videos": [
+          {
+            "url": "http://shuttle9-5b89.kxcdn.com/screaming_skull/index.m3u8",
+            "quality": "SD",
+            "videoType": "HLS"
+          }
+        ]
+      }
+    },
+      {
+      "id": "0103TORM",
+      "title": "Tormented",
+      "shortDescription": "Year: 1960. Starring Richard Carlson.",
+        "longDescription": "A ghost haunts a man (Richard Carlson) with a secret on the eve of his wedding.",
+      "thumbnail": "http://shuttle9-5b89.kxcdn.com/images/tormented16x9.png",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "tags": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseDate": "1960-06-11",
+      "content": {
+        "dateAdded": "2016-06-11T14:14:54.431Z",
+        "captions": [],
+        "duration": 4471,
+        "adBreaks": [
+          
+        ],
+        "videos": [
+          {
+            "url": "http://shuttle9-5b89.kxcdn.com/0103TORM/index.m3u8",
+            "quality": "SD",
+            "videoType": "HLS"
+          }
+        ]
+      }
+    }
+      
+  ],
+    "shortFormVideos": [
+    {
+      "id": "0001WORLD",
+      "title": "Shuttlecruiser Logo Animation",
+      "shortDescription": "Year: 2016.",
+        "longDescription": "A shuttle lowers into frame whilst a globe spins in the corner.",
+      "thumbnail": "http://shuttlecruiser.com/images/honhh.png",
+      "genres": [
+        "thriller"
+      ],
+      "tags": [
+        "horror",
+        "thriller"
+      ],
+      "releaseDate": "2016-06-11",
+      "content": {
+        "dateAdded": "2016-10-11T14:14:54.431Z",
+        "captions": [],
+        "duration": 12,
+        "videos": [
+          {
+            "url": "http://shuttle8-5b89.kxcdn.com/ShuttleWorldGen.mov",
+            "quality": "HD",
+            "videoType": "MP4"
+          }
+        ]
+      }
+    }
+],
+  "playlists": [
+    {
+      "name": "movies",
+      "itemIds": [
+        "0101honhh",
+        "0102TSS",
+        "0101HONHHD",
+        "0001WORLD"
+      ]
+    },
+    {
+      "name": "originals",
+      "itemIds": [
+        "0001WORLD"
+      ]
+    }
+  ],
+  "categories": [
+     {
+      "name": "Haunted Favorites",
+      "playlistName": "movies",
+      "order": "manual"
+    },
+    {
+      "name": "Shuttle Originals",
+      "playlistName": "originals",
+      "order": "manual"
+    }
+  ]
+}
