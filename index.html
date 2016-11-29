@@ -14,6 +14,9 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+        <!-- video-js If IE8 -->
+        <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 	</head>
 	<body>
 
@@ -95,20 +98,31 @@
                 
 					<section id="top" class="one dark cover" style="margin-top: -3em">
                      
-						<div class="container">
-                         <iframe src="https://iframe.dacast.com/b/78632/l/425166" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>  
+						<div class="container">  
+                            <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360"
+  poster="images/shuttleRokuSplash.png" data-setup="{}">
+    <source src="movies/ShuttleWorldGen.mp4" type='video/mp4'>
+    <source src="MY_VIDEO.webm" type='video/webm'>
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+                            
 
 							<header>
 								<h2 class="alt"><strong>Shuttlecruiser.com</strong><br />
                                     is
-                                the future of online movies and TV.</h2>
-								<p> Classic curated content presented in a live stream.</p>
-                                <p>Plus catch up on the classics with our on-demand library. </p>
+                                your online haven for classic <br />
+                                    and lesser-known movies and TV.</h2>
+								
+                                <p> Our on-demand library is specially curiated with exclusive previews and information
+                                to help you discover something new all the time!</p>
 							</header>
 
 							<footer>
-								<a href="#channels" class="button scrolly">
-                                    Full Schedule</a>
+								<a href="#odhaunt" class="button scrolly">
+                                    On Demand Now</a>
 							</footer>
 
 						</div>
@@ -116,11 +130,93 @@
                
                 
 				<!-- Portfolio -->
-					<section id="ondemand" class="two">
+					<section id="odhaunt" class="two">
 						<div class="container">
 
 							<header>
-								<h2>On Demand This Month: Haunted Favorites</h2>
+								<h2>Holiday Classic Alternatives</h2>
+							</header>
+
+							<div class="row uniform 50%">
+                                
+                                <div class="3u(3) 4u(4) 6u(5)">
+								    <article class="item">
+										<a href="house-on-haunted-hill.html" >
+										
+										<div class="tooltip">
+											<img src="images/scrooge35.jpg" class="thumbnail" />
+                                            <header>
+											<h3>Scrooge (1935)</h3>
+										</header>
+                                        
+											<span>
+                                                <strong>Scrooge</strong><br />
+												Year: 1935<br />
+												Seymour Hicks stars as the crusty business owner
+                                                who gets visits from three ghosts to show him the
+                                                error of his ways on Christmas Eve.</span>
+										</div>
+										</a>
+                                        </article>
+								</div>
+                                
+                                <div class="3u(3) 4u(4) 6u(5)">
+								    <article class="item">
+										<a href="#" >
+										
+										<div class="tooltip">
+											<img src="images/sccm.jpg" class="thumbnail" />
+                                            <header>
+											<h3>Santa Claus Conquers the Martians</h3>
+										</header>
+                                        
+											<span>
+                                                <strong>Santa Claus Conquers the Martians</strong><br />
+												Year: 1959<br />
+												Jolly old St. Nick goes up against alien invaders
+                                                in this holiday sci-fi adventure!</span>
+										</div>
+										</a>
+                                        </article>
+								</div>
+                                
+								 <div class="3u(3) 4u(4) 6u(5)">
+								    <article class="item">
+										<a href="#" >
+										
+										<div class="tooltip">
+											<img src="images/scvd.jpg" class="thumbnail" />
+                                            <header>
+											<h3>Santa Claus vs. The Devil</h3>
+										</header>
+                                        
+											<span>
+                                                <strong>Santa Claus vs. The Devil</strong><br />
+												Year: 1959<br />
+											     The jovial gift-giver fights Lucifer himself
+                                                to save Christmas as we know it!
+                                            </span>
+										</div>
+										</a>
+                                        </article>
+								</div>
+								
+								
+                            <!-- movies end here -->
+                            
+                            <!-- </div> -->
+						</div>
+
+							
+
+						</div>
+                    </section>
+                        
+                <section id="odhaunt" class="two">
+                        <div class="container">
+
+							<header>
+								<h2>Haunted Favorites</h2>
 							</header>
 
 							<div class="row uniform 50%">
@@ -152,6 +248,25 @@
 										<a href="#" >
 										
 										<div class="tooltip">
+											<img src="images/fuHome.jpg" class="thumbnail" />
+                                            <header>
+											<h3>Funeral Home</h3>
+										</header>
+                                        
+											<span>
+                                                <strong>Funeral Home</strong><br />
+												Year: 1980<br />
+												Terror arises when a young woman helps her grandmother turn an old funeral home into a bed and breakfast. Co-starring Barry Morse.</span>
+										</div>
+										</a>
+                                        </article>
+								</div>
+                                
+                                <div class="3u(3) 4u(4) 6u(5)">
+								    <article class="item">
+										<a href="#" >
+										
+										<div class="tooltip">
 											<img src="images/tormented.jpg" class="thumbnail" />
                                             <header>
 											<h3>Tormented</h3>
@@ -161,6 +276,25 @@
                                                 <strong>Tormented</strong><br />
 												Year: 1960<br />
 												A ghost haunts a man (Richard Carlson) with a secret on the eve of his wedding.</span>
+										</div>
+										</a>
+                                        </article>
+								</div>
+                                
+                                 <div class="3u(3) 4u(4) 6u(5)">
+								    <article class="item">
+										<a href="#" >
+										
+										<div class="tooltip">
+											<img src="images/srdracula.png" class="thumbnail" />
+                                            <header>
+											<h3>The Satanic Rites of Dracula</h3>
+										</header>
+                                        
+											<span>
+                                                <strong>The Satanic Rites of Dracula</strong><br />
+												Year: 1973<br />
+												Christopher Lee stars as the undead vampire, pursued by Van Helsing (Peter Cushing) in this chilling installment of the legendary Hammer Films saga.</span>
 										</div>
 										</a>
                                         </article>
@@ -185,130 +319,13 @@
 										</a>
                                         </article>
 								</div>
-								
-								 <div class="3u(3) 4u(4) 6u(5)">
-								    <article class="item">
-										<a href="#" >
-										
-										<div class="tooltip">
-											<img src="images/terrorcreatures.png" class="thumbnail" />
-                                            <header>
-											<h3>Terror Creatures from the Grave</h3>
-										</header>
-                                        
-											<span>
-                                                <strong>Terror Creatures from the Grave</strong><br />
-												Year: 1965<br />
-												Starring Barbara Steele.<br />
-                                                Evil spirits terrorize the living inside an ominous castle.</span>
-										</div>
-										</a>
-                                        </article>
-								</div>
                                 
-                                 <div class="3u(3) 4u(4) 6u(5)">
-								    <article class="item">
-										<a href="#" >
-										
-										<div class="tooltip">
-											<img src="images/ladyfrank.png" class="thumbnail" />
-                                            <header>
-											<h3>Lady Frankenstein</h3>
-										</header>
-                                        
-											<span>
-                                                <strong>Lady Frankenstein</strong><br />
-												Year: 1971<br />
-												Starring Joseph Cotten.<br />
-                                                The daughter of the infamous experimental scientist decides to carry on his experiments, with terrifying results.</span>
-										</div>
-										</a>
-                                        </article>
-								</div>
-                                
-                                 <div class="3u(3) 4u(4) 6u(5)">
-								    <article class="item">
-										<a href="#" >
-										
-										<div class="tooltip">
-											<img src="images/deadmenwalk.png" class="thumbnail" />
-                                            <header>
-											<h3>Dead Men Walk</h3>
-										</header>
-                                        
-											<span>
-                                                <strong>Dead Men Walk</strong><br />
-												Year: 1943.<br />
-												An evil man returns from the grave as a vampire seeking vengeance against his twin brother. George Zucco stars in dual roles.</span>
-										</div>
-										</a>
-                                        </article>
-								</div>
-                                
-                                 <div class="3u(3) 4u(4) 6u(5)">
-								    <article class="item">
-										<a href="#" >
-										
-										<div class="tooltip">
-											<img src="images/dracula.png" class="thumbnail" />
-                                            <header>
-											<h3>The Satanic Rites of Dracula</h3>
-										</header>
-                                        
-											<span>
-                                                <strong>The Satanic Rites of Dracula</strong><br />
-												Year: 1973<br />
-												Christopher Lee stars as the undead vampire, pursued by Van Helsing (Peter Cushing) in this chilling installment of the legendary Hammer Films saga.</span>
-										</div>
-										</a>
-                                        </article>
-								</div>
-                                
-                                <div class="3u(3) 4u(4) 6u(5)">
-								    <article class="item">
-										<a href="#" >
-										
-										<div class="tooltip">
-											<img src="images/murdermansion.png" class="thumbnail" />
-                                            <header>
-											<h3>The Murder Mansion</h3>
-										</header>
-                                        
-											<span>
-                                                <strong>The Murder Mansion</strong><br />
-												Year: 1972<br />
-												Thick fog forces a couple to seek shelter in a creepy mansion adjacent to a cemetery...</span>
-										</div>
-										</a>
-                                        </article>
-								</div>
-                                
-                                <div class="3u(3) 4u(4) 6u(5)">
-								    <article class="item">
-										<a href="#" >
-										
-										<div class="tooltip">
-											<img src="images/funeralhome.png" class="thumbnail" />
-                                            <header>
-											<h3>Funeral Home</h3>
-										</header>
-                                        
-											<span>
-                                                <strong>Funeral Home</strong><br />
-												Year: 1980<br />
-												Terror arises when a young woman helps her grandmother turn an old funeral home into a bed and breakfast. Co-starring Barry Morse.</span>
-										</div>
-										</a>
-                                        </article>
-								</div>
                             <!-- movies end here -->
                             
                             <!-- </div> -->
 						</div>
-
-							
-
 						</div>
+                        
 					</section>
 
                  <!-- Channels -->
@@ -322,7 +339,7 @@
                     Coming Soon!</p>
                         
                     <p>
-                        The Shuttlecruiser team is hard at work curating a system of channels you can watch live, just like cable -- only completely free. From the <strong>classics</strong> to <strong>action</strong>, <strong>sci-fi</strong>, and <strong>animation</strong>, Shuttlecruiser is launching something for everyone.
+                        The Shuttlecruiser team is hard at work curating a system of channels you can watch live or on-demand. From the <strong>classics</strong> to <strong>action</strong>, <strong>sci-fi</strong>, and <strong>animation</strong>, Shuttlecruiser is launching something for everyone.
                         </p>
                         
         </div>
@@ -395,6 +412,6 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+            <script src="assets/js/video.js"></script>
 	</body>
 </html>
