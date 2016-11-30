@@ -14,7 +14,11 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        
         <link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+        
+        <link href="assets/css/videojs-custom.css" rel="stylesheet">
+        
         <!-- video-js If IE8 -->
         <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 	</head>
@@ -49,7 +53,7 @@
                             -->
 				<ul class="top">
 				<li><a href="#top" id="top-link" class="skel-layers-ignoreHref">
-                                <span class="icon fa-desktop">Live</span></a></li>
+                                <span class="icon fa-desktop">Preview</span></a></li>
                     <li><a href="#ondemand" id="portfolio-link" class="skel-layers-ignoreHref">
                                     <span class="icon fa-play">On Demand</span></a></li> 
                 <li><a href="#channels" id="channels-link" class="skel-layers-ignoreHref">
@@ -99,7 +103,8 @@
 					<section id="top" class="one dark cover" style="margin-top: -3em">
                      
 						<div class="container">  
-                            <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360"
+                            <!-- Generic Video Content
+<video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360"
   poster="images/shuttleRokuSplash.png" data-setup="{}">
     <source src="movies/ShuttleWorldGen.mp4" type='video/mp4'>
     <source src="MY_VIDEO.webm" type='video/webm'>
@@ -107,7 +112,21 @@
       To view this video please enable JavaScript, and consider upgrading to a web browser that
       <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
     </p>
+  </video> -->
+                            <!-- VIMEO Embed
+                            <iframe src="https://player.vimeo.com/video/193772757" width="640" height="360" frameborder="0" badge="0" title="0" byline="0" autoplay="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+                            
+                        <!-- Holiday VideoJS -->
+                            <video id="my-video" class="video-js vjs-big-play-centered" autoplay controls preload="auto" width="640" height="360"
+  poster="images/holidaySplash.jpg" data-setup="{}">
+    <source src="http://shuttle9-5b89.kxcdn.com/promo/ShuttleHoliday2016.mp4" type='video/mp4'>
+    <source src="http://shuttle9-5b89.kxcdn.com/promo/ShuttleHoliday2016.webm" type='video/webm'>
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
   </video>
+
                             
 
 							<header>
@@ -117,7 +136,7 @@
                                     and lesser-known movies and TV.</h2>
 								
                                 <p> Our on-demand library is specially curiated with exclusive previews and information
-                                to help you discover something new all the time!</p>
+                                to help you discover something new every time!</p>
 							</header>
 
 							<footer>
@@ -130,7 +149,7 @@
                
                 
 				<!-- Portfolio -->
-					<section id="odhaunt" class="two">
+					<section id="odholiday" class="two">
 						<div class="container">
 
 							<header>
@@ -141,7 +160,7 @@
                                 
                                 <div class="3u(3) 4u(4) 6u(5)">
 								    <article class="item">
-										<a href="house-on-haunted-hill.html" >
+										<a href="scrooge-1935.html" >
 										
 										<div class="tooltip">
 											<img src="images/scrooge35.jpg" class="thumbnail" />
@@ -162,7 +181,27 @@
                                 
                                 <div class="3u(3) 4u(4) 6u(5)">
 								    <article class="item">
-										<a href="#" >
+										<a href="miracle-on-34th-street.html" >
+										
+										<div class="tooltip">
+											<img src="images/miracle34.png" class="thumbnail" />
+                                            <header>
+											<h3>The Miracle on 34th Street</h3>
+										</header>
+                                        
+											<span>
+                                                <strong>The Miracle on 34th Street</strong><br />
+												Year: 1955<br />
+											     A department store Santa believes he's the real deal... and he just might be! A heartwarming presentation of the classic 1955 television production.
+                                            </span>
+										</div>
+										</a>
+                                        </article>
+								</div>
+                                
+                                <div class="3u(3) 4u(4) 6u(5)">
+								    <article class="item">
+										<a href="sccm.html" >
 										
 										<div class="tooltip">
 											<img src="images/sccm.jpg" class="thumbnail" />
@@ -180,9 +219,11 @@
                                         </article>
 								</div>
                                 
+                                
+                                
 								 <div class="3u(3) 4u(4) 6u(5)">
 								    <article class="item">
-										<a href="#" >
+										<a href="scvd.html" >
 										
 										<div class="tooltip">
 											<img src="images/scvd.jpg" class="thumbnail" />
@@ -216,14 +257,14 @@
                         <div class="container">
 
 							<header>
-								<h2>Haunted Favorites</h2>
+								<h2>Mysterious Favorites</h2>
 							</header>
 
 							<div class="row uniform 50%">
                                 
                                 <div class="3u(3) 4u(4) 6u(5)">
 								    <article class="item">
-										<a href="house-on-haunted-hill.html" >
+										<a href="honhh.html" >
 										
 										<div class="tooltip">
 											<img src="images/honhh.jpg" class="thumbnail" />
@@ -245,7 +286,7 @@
                                 
                                 <div class="3u(3) 4u(4) 6u(5)">
 								    <article class="item">
-										<a href="#" >
+										<a href="funeral-home.html" >
 										
 										<div class="tooltip">
 											<img src="images/fuHome.jpg" class="thumbnail" />
@@ -264,7 +305,7 @@
                                 
                                 <div class="3u(3) 4u(4) 6u(5)">
 								    <article class="item">
-										<a href="#" >
+										<a href="tormented.html" >
 										
 										<div class="tooltip">
 											<img src="images/tormented.jpg" class="thumbnail" />
@@ -281,24 +322,7 @@
                                         </article>
 								</div>
                                 
-                                 <div class="3u(3) 4u(4) 6u(5)">
-								    <article class="item">
-										<a href="#" >
-										
-										<div class="tooltip">
-											<img src="images/srdracula.png" class="thumbnail" />
-                                            <header>
-											<h3>The Satanic Rites of Dracula</h3>
-										</header>
-                                        
-											<span>
-                                                <strong>The Satanic Rites of Dracula</strong><br />
-												Year: 1973<br />
-												Christopher Lee stars as the undead vampire, pursued by Van Helsing (Peter Cushing) in this chilling installment of the legendary Hammer Films saga.</span>
-										</div>
-										</a>
-                                        </article>
-								</div>
+                                
                                 
 								 <div class="3u(3) 4u(4) 6u(5)">
 								    <article class="item">
@@ -358,11 +382,27 @@
 
 							<p>
                             
-                                Shuttlecruiser transports you to the future of streaming online movies and TV. Our library of classics is carefully curated and specially formatted for streaming, with limited commercial interruptions. Watch our <a href="#top">live channel</a> or browse our large collection of <a href="ondemand-full/">on-demand titles</a>.
+                                Shuttlecruiser transports you to the future of streaming online movies and TV. Our library of classics is carefully curated and presented with limited to no commercial interruptions.</a>.
                                 </p>
+                
+                    <header>
+								<h2>How can I watch Shuttlecruiser on my TV?</h2>
+							</header>
+                
                             <p>
-                                More channels and titles are always being added, so check back often, and download our apps for your favorite device!
-                                
+                                Our classic film library is coming soon to <span class="tradename">Roku</span>, featuring additional movies! Below is a special preview of what's coming to the Shuttlecruiser Roku channel...</p>
+                            
+                <video id="rokutrailer"
+                class="video-js vjs-big-play-centered" controls preload="none" width="427" height="240"
+  poster="images/scifiPreview.png" data-setup="{}">
+    <source src="http://shuttle9-5b89.kxcdn.com/0002SCI/index.m3u8" type="application/x-mpegURL">
+                
+                </video>
+                            <p>
+                                If you have a <span class="tradename">Roku</span>, you'll soon be able to add the Shuttlecruiser channel to enjoy our classic library plus feature films only available through the channel.      
+                            </p>
+                 <p>
+                     Additionally, our entire video library is compatible with both <span class="tradename">Google Chromecast</span> and <span class="tradename">Apple AirPlay</span>.      
                             </p>
 
 						</div>
@@ -377,7 +417,7 @@
 								<h2>Contact</h2>
 							</header>
 
-                            <p>Have a question about our services, production, advertising, or investment opportunities?</p>
+                            <p>Have a question about our services, or interested in advertising opportunities?</p>
                             <p>We'd love to hear you say hello!</p>
                            
                             
@@ -412,6 +452,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-            <script src="assets/js/video.js"></script>
+            <!--  src="assets/js/video.js"></script -->
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/5.10.2/video.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/3.0.2/videojs-contrib-hls.js"></script>
 	</body>
 </html>
